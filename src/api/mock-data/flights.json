@@ -1,0 +1,2711 @@
+{
+  "AA123": {
+    "airline": {
+      "iataCode": "AA",
+      "logoUrl": "https://images.kiwi.com/airlines/64/AA.png",
+      "name": "American Airlines"
+    },
+    "departureAirport": "JFK",
+    "departureCity": "New York",
+    "departureDateTime": "2024-01-21T08:00:00",
+    "arrivalAirport": "LAX",
+    "arrivalCity": "Los Angeles",
+    "arrivalDateTime": "2024-01-21T10:00:00",
+    "duration": "2h",
+    "seatsAvailable": 120,
+    "aircraft": {
+      "capacity": {
+        "Economy": 180,
+        "PremiumEconomy": 40,
+        "Business": 30,
+        "FirstClass": 10
+      },
+      "manufacturer": "Boeing",
+      "model": "777",
+      "type": "B777"
+    },
+    "layovers": [
+      {
+        "airport": "DFW",
+        "city": "Dallas",
+        "arrivalDateTime": "2024-01-21T12:00:00",
+        "departureDateTime": "2024-01-21T14:00:00",
+        "willChangeAircraft": true,
+        "nextAirline": {
+          "iataCode": "UA",
+          "logoUrl": "https://images.kiwi.com/airlines/64/UA.png",
+          "name": "United Airlines"
+        },
+        "nextFlightNumber": "UA456",
+        "nextAircraft": {
+          "capacity": {
+            "Economy": 150
+          },
+          "manufacturer": "Boeing",
+          "model": "737",
+          "type": "B737"
+        }
+      },
+      {
+        "airport": "PHX",
+        "city": "Phoenix",
+        "arrivalDateTime": "2024-01-21T16:30:00",
+        "departureDateTime": "2024-01-21T18:30:00",
+        "willChangeAircraft": false
+      }
+    ],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions",
+          "PowerOutlets"
+        ],
+        "baggageAllowance": {
+          "carryOn": "7kg",
+          "checked": "23kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "31 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 300
+        }
+      },
+      {
+        "amenities": [
+          "BusinessClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "10kg",
+          "checked": "32kg"
+        },
+        "cabinClass": "Business",
+        "legroom": "45 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 800
+        }
+      },
+      {
+        "amenities": [
+          "BusinessClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions",
+          "AdvancedTechnologies"
+        ],
+        "baggageAllowance": {
+          "carryOn": "12kg",
+          "checked": "40kg"
+        },
+        "cabinClass": "FirstClass",
+        "legroom": "60 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1500
+        }
+      }
+    ]
+  },
+  "AF456": {
+    "airline": {
+      "iataCode": "AF",
+      "logoUrl": "https://images.kiwi.com/airlines/64/AF.png",
+      "name": "Air France"
+    },
+    "departureAirport": "CDG",
+    "departureCity": "Paris",
+    "departureDateTime": "2024-01-21T14:00:00",
+    "arrivalAirport": "JFK",
+    "arrivalCity": "New York",
+    "arrivalDateTime": "2024-01-21T17:00:00",
+    "duration": "8h",
+    "seatsAvailable": 200,
+    "aircraft": {
+      "capacity": {
+        "Economy": 250,
+        "PremiumEconomy": 50,
+        "Business": 40,
+        "FirstClass": 20
+      },
+      "manufacturer": "Airbus",
+      "model": "A380",
+      "type": "A380"
+    },
+    "layovers": [],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions",
+          "PowerOutlets"
+        ],
+        "baggageAllowance": {
+          "carryOn": "8kg",
+          "checked": "25kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "32 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 350
+        }
+      },
+      {
+        "amenities": [
+          "PremiumEconomyAmenities",
+          "SeatComfort",
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "12kg",
+          "checked": "35kg"
+        },
+        "cabinClass": "PremiumEconomy",
+        "legroom": "38 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 700
+        }
+      },
+      {
+        "amenities": [
+          "BusinessClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions",
+          "WiFiAvailability"
+        ],
+        "baggageAllowance": {
+          "carryOn": "15kg",
+          "checked": "40kg"
+        },
+        "cabinClass": "Business",
+        "legroom": "50 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1200
+        }
+      }
+    ]
+  },
+  "EK789": {
+    "airline": {
+      "iataCode": "EK",
+      "logoUrl": "https://images.kiwi.com/airlines/64/EK.png",
+      "name": "Emirates"
+    },
+    "departureAirport": "DXB",
+    "departureCity": "Dubai",
+    "departureDateTime": "2024-01-21T15:45:00",
+    "arrivalAirport": "JFK",
+    "arrivalCity": "New York",
+    "arrivalDateTime": "2024-01-21T21:15:00",
+    "duration": "14h",
+    "seatsAvailable": 250,
+    "aircraft": {
+      "capacity": {
+        "Economy": 200,
+        "Business": 40,
+        "FirstClass": 10
+      },
+      "manufacturer": "Airbus",
+      "model": "A380",
+      "type": "A380"
+    },
+    "layovers": [
+      {
+        "airport": "IST",
+        "city": "Istanbul",
+        "arrivalDateTime": "2024-01-21T18:30:00",
+        "departureDateTime": "2024-01-21T20:00:00",
+        "willChangeAircraft": true,
+        "nextAirline": {
+          "iataCode": "DL",
+          "logoUrl": "https://images.kiwi.com/airlines/64/DL.png",
+          "name": "Delta Air Lines"
+        },
+        "nextFlightNumber": "DL567",
+        "nextAircraft": {
+          "capacity": {
+            "Economy": 180,
+            "PremiumEconomy": 30,
+            "Business": 20
+          },
+          "manufacturer": "Airbus",
+          "model": "A350",
+          "type": "A350"
+        }
+      }
+    ],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions",
+          "PowerOutlets"
+        ],
+        "baggageAllowance": {
+          "carryOn": "7kg",
+          "checked": "23kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "31 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 600
+        }
+      },
+      {
+        "amenities": [
+          "BusinessClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "10kg",
+          "checked": "32kg"
+        },
+        "cabinClass": "Business",
+        "legroom": "45 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1200
+        }
+      },
+      {
+        "amenities": [
+          "FirstClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions",
+          "WiFiAvailability"
+        ],
+        "baggageAllowance": {
+          "carryOn": "12kg",
+          "checked": "40kg"
+        },
+        "cabinClass": "FirstClass",
+        "legroom": "60 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 2000
+        }
+      }
+    ]
+  },
+  "LH456": {
+    "airline": {
+      "iataCode": "LH",
+      "logoUrl": "https://images.kiwi.com/airlines/64/LH.png",
+      "name": "Lufthansa"
+    },
+    "departureAirport": "FRA",
+    "departureCity": "Frankfurt",
+    "departureDateTime": "2024-01-21T12:45:00",
+    "arrivalAirport": "JFK",
+    "arrivalCity": "New York",
+    "arrivalDateTime": "2024-01-21T17:15:00",
+    "duration": "8h",
+    "seatsAvailable": 220,
+    "aircraft": {
+      "capacity": {
+        "Economy": 180,
+        "Business": 30,
+        "FirstClass": 10
+      },
+      "manufacturer": "Boeing",
+      "model": "747-8",
+      "type": "B748"
+    },
+    "layovers": [],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions",
+          "PowerOutlets"
+        ],
+        "baggageAllowance": {
+          "carryOn": "8kg",
+          "checked": "25kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "32 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 400
+        }
+      },
+      {
+        "amenities": [
+          "BusinessClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "10kg",
+          "checked": "32kg"
+        },
+        "cabinClass": "Business",
+        "legroom": "45 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 900
+        }
+      },
+      {
+        "amenities": [
+          "FirstClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions",
+          "WiFiAvailability"
+        ],
+        "baggageAllowance": {
+          "carryOn": "12kg",
+          "checked": "40kg"
+        },
+        "cabinClass": "FirstClass",
+        "legroom": "60 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1600
+        }
+      }
+    ]
+  },
+  "QR789": {
+    "airline": {
+      "iataCode": "QR",
+      "logoUrl": "https://images.kiwi.com/airlines/64/QR.png",
+      "name": "Qatar Airways"
+    },
+    "departureAirport": "DOH",
+    "departureCity": "Doha",
+    "departureDateTime": "2024-01-21T16:30:00",
+    "arrivalAirport": "JFK",
+    "arrivalCity": "New York",
+    "arrivalDateTime": "2024-01-21T21:00:00",
+    "duration": "14h",
+    "seatsAvailable": 260,
+    "aircraft": {
+      "capacity": {
+        "Economy": 200,
+        "Business": 40,
+        "FirstClass": 20
+      },
+      "manufacturer": "Airbus",
+      "model": "A350",
+      "type": "A350"
+    },
+    "layovers": [
+      {
+        "airport": "IST",
+        "city": "Istanbul",
+        "arrivalDateTime": "2024-01-21T18:00:00",
+        "departureDateTime": "2024-01-21T19:30:00",
+        "willChangeAircraft": true,
+        "nextAirline": {
+          "iataCode": "AF",
+          "logoUrl": "https://images.kiwi.com/airlines/64/AF.png",
+          "name": "Air France"
+        },
+        "nextFlightNumber": "AF234",
+        "nextAircraft": {
+          "capacity": {
+            "Economy": 180,
+            "PremiumEconomy": 30,
+            "Business": 20
+          },
+          "manufacturer": "Airbus",
+          "model": "A380",
+          "type": "A380"
+        }
+      }
+    ],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions",
+          "PowerOutlets"
+        ],
+        "baggageAllowance": {
+          "carryOn": "7kg",
+          "checked": "23kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "31 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 550
+        }
+      },
+      {
+        "amenities": [
+          "BusinessClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "10kg",
+          "checked": "32kg"
+        },
+        "cabinClass": "Business",
+        "legroom": "45 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1300
+        }
+      },
+      {
+        "amenities": [
+          "FirstClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions",
+          "WiFiAvailability"
+        ],
+        "baggageAllowance": {
+          "carryOn": "12kg",
+          "checked": "40kg"
+        },
+        "cabinClass": "FirstClass",
+        "legroom": "60 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 2100
+        }
+      }
+    ]
+  },
+  "WN345": {
+    "airline": {
+      "iataCode": "WN",
+      "logoUrl": "https://images.kiwi.com/airlines/64/WN.png",
+      "name": "Southwest Airlines"
+    },
+    "departureAirport": "DEN",
+    "departureCity": "Denver",
+    "departureDateTime": "2024-01-21T09:15:00",
+    "arrivalAirport": "LAS",
+    "arrivalCity": "Las Vegas",
+    "arrivalDateTime": "2024-01-21T10:45:00",
+    "duration": "1h30m",
+    "seatsAvailable": 150,
+    "aircraft": {
+      "capacity": {
+        "Economy": 150
+      },
+      "manufacturer": "Boeing",
+      "model": "737",
+      "type": "B737"
+    },
+    "layovers": [],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions",
+          "PowerOutlets"
+        ],
+        "baggageAllowance": {
+          "carryOn": "6kg",
+          "checked": "20kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "30 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 200
+        }
+      }
+    ]
+  },
+  "KL567": {
+    "airline": {
+      "iataCode": "KL",
+      "logoUrl": "https://images.kiwi.com/airlines/64/KL.png",
+      "name": "KLM"
+    },
+    "departureAirport": "AMS",
+    "departureCity": "Amsterdam",
+    "departureDateTime": "2024-01-22T08:30:00",
+    "arrivalAirport": "SIN",
+    "arrivalCity": "Singapore",
+    "arrivalDateTime": "2024-01-22T23:00:00",
+    "duration": "13h30m",
+    "seatsAvailable": 220,
+    "aircraft": {
+      "capacity": {
+        "Economy": 180,
+        "Business": 30,
+        "FirstClass": 10
+      },
+      "manufacturer": "Boeing",
+      "model": "777",
+      "type": "B777"
+    },
+    "layovers": [
+      {
+        "airport": "DXB",
+        "city": "Dubai",
+        "arrivalDateTime": "2024-01-22T14:30:00",
+        "departureDateTime": "2024-01-22T16:00:00",
+        "willChangeAircraft": true,
+        "nextAirline": {
+          "iataCode": "EK",
+          "logoUrl": "https://images.kiwi.com/airlines/64/EK.png",
+          "name": "Emirates"
+        },
+        "nextFlightNumber": "EK789",
+        "nextAircraft": {
+          "capacity": {
+            "Economy": 200,
+            "Business": 40,
+            "FirstClass": 10
+          },
+          "manufacturer": "Airbus",
+          "model": "A380",
+          "type": "A380"
+        }
+      }
+    ],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions",
+          "PowerOutlets"
+        ],
+        "baggageAllowance": {
+          "carryOn": "8kg",
+          "checked": "25kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "32 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 500
+        }
+      },
+      {
+        "amenities": [
+          "BusinessClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "10kg",
+          "checked": "32kg"
+        },
+        "cabinClass": "Business",
+        "legroom": "45 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1100
+        }
+      },
+      {
+        "amenities": [
+          "FirstClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions",
+          "WiFiAvailability"
+        ],
+        "baggageAllowance": {
+          "carryOn": "12kg",
+          "checked": "40kg"
+        },
+        "cabinClass": "FirstClass",
+        "legroom": "60 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1800
+        }
+      }
+    ]
+  },
+  "MU876": {
+    "airline": {
+      "iataCode": "MU",
+      "logoUrl": "https://images.kiwi.com/airlines/64/MU.png",
+      "name": "China Eastern Airlines"
+    },
+    "departureAirport": "PVG",
+    "departureCity": "Shanghai",
+    "departureDateTime": "2024-02-15T09:00:00",
+    "arrivalAirport": "SFO",
+    "arrivalCity": "San Francisco",
+    "arrivalDateTime": "2024-02-15T11:30:00",
+    "duration": "11h30m",
+    "seatsAvailable": 200,
+    "aircraft": {
+      "capacity": {
+        "Economy": 180,
+        "Business": 20
+      },
+      "manufacturer": "Airbus",
+      "model": "A330",
+      "type": "A330"
+    },
+    "layovers": [],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions",
+          "PowerOutlets"
+        ],
+        "baggageAllowance": {
+          "carryOn": "7kg",
+          "checked": "23kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "31 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 450
+        }
+      },
+      {
+        "amenities": [
+          "BusinessClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "10kg",
+          "checked": "32kg"
+        },
+        "cabinClass": "Business",
+        "legroom": "45 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1000
+        }
+      }
+    ]
+  },
+  "TK345": {
+    "airline": {
+      "iataCode": "TK",
+      "logoUrl": "https://images.kiwi.com/airlines/64/TK.png",
+      "name": "Turkish Airlines"
+    },
+    "departureAirport": "IST",
+    "departureCity": "Istanbul",
+    "departureDateTime": "2024-03-10T12:45:00",
+    "arrivalAirport": "HKG",
+    "arrivalCity": "Hong Kong",
+    "arrivalDateTime": "2024-03-10T22:15:00",
+    "duration": "9h30m",
+    "seatsAvailable": 230,
+    "aircraft": {
+      "capacity": {
+        "Economy": 200,
+        "Business": 20,
+        "FirstClass": 10
+      },
+      "manufacturer": "Boeing",
+      "model": "777",
+      "type": "B777"
+    },
+    "layovers": [
+      {
+        "airport": "BKK",
+        "city": "Bangkok",
+        "arrivalDateTime": "2024-03-10T15:30:00",
+        "departureDateTime": "2024-03-10T17:00:00",
+        "willChangeAircraft": true,
+        "nextAirline": {
+          "iataCode": "CA",
+          "logoUrl": "https://images.kiwi.com/airlines/64/CA.png",
+          "name": "Air China"
+        },
+        "nextFlightNumber": "CA789",
+        "nextAircraft": {
+          "capacity": {
+            "Economy": 180,
+            "Business": 30,
+            "FirstClass": 10
+          },
+          "manufacturer": "Airbus",
+          "model": "A350",
+          "type": "A350"
+        }
+      }
+    ],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions",
+          "PowerOutlets"
+        ],
+        "baggageAllowance": {
+          "carryOn": "8kg",
+          "checked": "25kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "32 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 600
+        }
+      },
+      {
+        "amenities": [
+          "BusinessClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "10kg",
+          "checked": "32kg"
+        },
+        "cabinClass": "Business",
+        "legroom": "45 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1300
+        }
+      },
+      {
+        "amenities": [
+          "FirstClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions",
+          "WiFiAvailability"
+        ],
+        "baggageAllowance": {
+          "carryOn": "12kg",
+          "checked": "40kg"
+        },
+        "cabinClass": "FirstClass",
+        "legroom": "60 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 2100
+        }
+      }
+    ]
+  },
+  "DL234": {
+    "airline": {
+      "iataCode": "DL",
+      "logoUrl": "https://images.kiwi.com/airlines/64/DL.png",
+      "name": "Delta Air Lines"
+    },
+    "departureAirport": "ATL",
+    "departureCity": "Atlanta",
+    "departureDateTime": "2024-01-23T10:30:00",
+    "arrivalAirport": "LHR",
+    "arrivalCity": "London",
+    "arrivalDateTime": "2024-01-23T14:30:00",
+    "duration": "8h",
+    "seatsAvailable": 180,
+    "aircraft": {
+      "capacity": {
+        "Economy": 200,
+        "PremiumEconomy": 30,
+        "Business": 25,
+        "FirstClass": 10
+      },
+      "manufacturer": "Boeing",
+      "model": "787",
+      "type": "B787"
+    },
+    "layovers": [],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions",
+          "PowerOutlets"
+        ],
+        "baggageAllowance": {
+          "carryOn": "8kg",
+          "checked": "25kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "32 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 400
+        }
+      },
+      {
+        "amenities": [
+          "PremiumEconomyAmenities",
+          "SeatComfort",
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "12kg",
+          "checked": "35kg"
+        },
+        "cabinClass": "PremiumEconomy",
+        "legroom": "38 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 800
+        }
+      },
+      {
+        "amenities": [
+          "BusinessClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions",
+          "WiFiAvailability"
+        ],
+        "baggageAllowance": {
+          "carryOn": "15kg",
+          "checked": "40kg"
+        },
+        "cabinClass": "Business",
+        "legroom": "50 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1500
+        }
+      }
+    ]
+  },
+  "AF234": {
+    "airline": {
+      "iataCode": "AF",
+      "logoUrl": "https://images.kiwi.com/airlines/64/AF.png",
+      "name": "Air France"
+    },
+    "departureAirport": "CDG",
+    "departureCity": "Paris",
+    "departureDateTime": "2024-02-10T14:00:00",
+    "arrivalAirport": "JFK",
+    "arrivalCity": "New York",
+    "arrivalDateTime": "2024-02-10T18:30:00",
+    "duration": "8h30m",
+    "seatsAvailable": 210,
+    "aircraft": {
+      "capacity": {
+        "Economy": 180,
+        "PremiumEconomy": 25,
+        "Business": 30,
+        "FirstClass": 15
+      },
+      "manufacturer": "Airbus",
+      "model": "A380",
+      "type": "A380"
+    },
+    "layovers": [],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions",
+          "PowerOutlets"
+        ],
+        "baggageAllowance": {
+          "carryOn": "9kg",
+          "checked": "28kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "31 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 450
+        }
+      },
+      {
+        "amenities": [
+          "PremiumEconomyAmenities",
+          "SeatComfort",
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "13kg",
+          "checked": "38kg"
+        },
+        "cabinClass": "PremiumEconomy",
+        "legroom": "39 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 850
+        }
+      },
+      {
+        "amenities": [
+          "BusinessClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions",
+          "WiFiAvailability"
+        ],
+        "baggageAllowance": {
+          "carryOn": "16kg",
+          "checked": "45kg"
+        },
+        "cabinClass": "Business",
+        "legroom": "52 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1600
+        }
+      },
+      {
+        "amenities": [
+          "FirstClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions",
+          "WiFiAvailability"
+        ],
+        "baggageAllowance": {
+          "carryOn": "18kg",
+          "checked": "50kg"
+        },
+        "cabinClass": "FirstClass",
+        "legroom": "60 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 2200
+        }
+      }
+    ]
+  },
+  "CA456": {
+    "airline": {
+      "iataCode": "CA",
+      "logoUrl": "https://images.kiwi.com/airlines/64/CA.png",
+      "name": "Air China"
+    },
+    "departureAirport": "PEK",
+    "departureCity": "Beijing",
+    "departureDateTime": "2024-03-15T11:15:00",
+    "arrivalAirport": "LAX",
+    "arrivalCity": "Los Angeles",
+    "arrivalDateTime": "2024-03-15T08:45:00",
+    "duration": "13h30m",
+    "seatsAvailable": 220,
+    "aircraft": {
+      "capacity": {
+        "Economy": 180,
+        "Business": 30,
+        "FirstClass": 10
+      },
+      "manufacturer": "Boeing",
+      "model": "777",
+      "type": "B777"
+    },
+    "layovers": [
+      {
+        "airport": "ICN",
+        "city": "Seoul",
+        "arrivalDateTime": "2024-03-15T15:30:00",
+        "departureDateTime": "2024-03-15T17:00:00",
+        "willChangeAircraft": true,
+        "nextAirline": {
+          "iataCode": "KE",
+          "logoUrl": "https://images.kiwi.com/airlines/64/KE.png",
+          "name": "Korean Air"
+        },
+        "nextFlightNumber": "KE789",
+        "nextAircraft": {
+          "capacity": {
+            "Economy": 190,
+            "Business": 35,
+            "FirstClass": 15
+          },
+          "manufacturer": "Airbus",
+          "model": "A350",
+          "type": "A350"
+        }
+      }
+    ],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions",
+          "PowerOutlets"
+        ],
+        "baggageAllowance": {
+          "carryOn": "8kg",
+          "checked": "25kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "32 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 500
+        }
+      },
+      {
+        "amenities": [
+          "BusinessClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "10kg",
+          "checked": "32kg"
+        },
+        "cabinClass": "Business",
+        "legroom": "45 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1100
+        }
+      },
+      {
+        "amenities": [
+          "FirstClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions",
+          "WiFiAvailability"
+        ],
+        "baggageAllowance": {
+          "carryOn": "12kg",
+          "checked": "40kg"
+        },
+        "cabinClass": "FirstClass",
+        "legroom": "60 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1800
+        }
+      }
+    ]
+  },
+  "MU789": {
+    "airline": {
+      "iataCode": "MU",
+      "logoUrl": "https://images.kiwi.com/airlines/64/MU.png",
+      "name": "China Eastern Airlines"
+    },
+    "departureAirport": "PVG",
+    "departureCity": "Shanghai",
+    "departureDateTime": "2024-04-05T09:30:00",
+    "arrivalAirport": "LAX",
+    "arrivalCity": "Los Angeles",
+    "arrivalDateTime": "2024-04-05T12:00:00",
+    "duration": "12h30m",
+    "seatsAvailable": 210,
+    "aircraft": {
+      "capacity": {
+        "Economy": 180,
+        "Business": 20,
+        "FirstClass": 10
+      },
+      "manufacturer": "Airbus",
+      "model": "A350",
+      "type": "A350"
+    },
+    "layovers": [],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions",
+          "PowerOutlets"
+        ],
+        "baggageAllowance": {
+          "carryOn": "7kg",
+          "checked": "23kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "31 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 460
+        }
+      },
+      {
+        "amenities": [
+          "BusinessClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "10kg",
+          "checked": "32kg"
+        },
+        "cabinClass": "Business",
+        "legroom": "45 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1000
+        }
+      },
+      {
+        "amenities": [
+          "FirstClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions",
+          "WiFiAvailability"
+        ],
+        "baggageAllowance": {
+          "carryOn": "12kg",
+          "checked": "40kg"
+        },
+        "cabinClass": "FirstClass",
+        "legroom": "60 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1800
+        }
+      }
+    ]
+  },
+  "TK789": {
+    "airline": {
+      "iataCode": "TK",
+      "logoUrl": "https://images.kiwi.com/airlines/64/TK.png",
+      "name": "Turkish Airlines"
+    },
+    "departureAirport": "IST",
+    "departureCity": "Istanbul",
+    "departureDateTime": "2024-05-05T09:00:00",
+    "arrivalAirport": "JFK",
+    "arrivalCity": "New York",
+    "arrivalDateTime": "2024-05-05T13:30:00",
+    "duration": "11h30m",
+    "seatsAvailable": 200,
+    "aircraft": {
+      "capacity": {
+        "Economy": 170,
+        "Business": 25,
+        "FirstClass": 10
+      },
+      "manufacturer": "Boeing",
+      "model": "777",
+      "type": "B777"
+    },
+    "layovers": [],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions",
+          "PowerOutlets"
+        ],
+        "baggageAllowance": {
+          "carryOn": "7kg",
+          "checked": "23kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "32 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 500
+        }
+      },
+      {
+        "amenities": [
+          "BusinessClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "10kg",
+          "checked": "32kg"
+        },
+        "cabinClass": "Business",
+        "legroom": "45 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1100
+        }
+      },
+      {
+        "amenities": [
+          "FirstClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions",
+          "WiFiAvailability"
+        ],
+        "baggageAllowance": {
+          "carryOn": "12kg",
+          "checked": "40kg"
+        },
+        "cabinClass": "FirstClass",
+        "legroom": "60 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1800
+        }
+      }
+    ]
+  },
+  "WN789": {
+    "airline": {
+      "iataCode": "WN",
+      "logoUrl": "https://images.kiwi.com/airlines/64/WN.png",
+      "name": "Southwest Airlines"
+    },
+    "departureAirport": "DAL",
+    "departureCity": "Dallas",
+    "departureDateTime": "2024-06-10T08:00:00",
+    "arrivalAirport": "LAS",
+    "arrivalCity": "Las Vegas",
+    "arrivalDateTime": "2024-06-10T09:30:00",
+    "duration": "1h30m",
+    "seatsAvailable": 150,
+    "aircraft": {
+      "capacity": {
+        "Economy": 150
+      },
+      "manufacturer": "Boeing",
+      "model": "737",
+      "type": "B737"
+    },
+    "layovers": [],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "7kg",
+          "checked": "20kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "30 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 120
+        }
+      }
+    ]
+  },
+  "DL123": {
+    "airline": {
+      "iataCode": "DL",
+      "logoUrl": "https://images.kiwi.com/airlines/64/DL.png",
+      "name": "Delta Air Lines"
+    },
+    "departureAirport": "ATL",
+    "departureCity": "Atlanta",
+    "departureDateTime": "2024-07-02T12:45:00",
+    "arrivalAirport": "CDG",
+    "arrivalCity": "Paris",
+    "arrivalDateTime": "2024-07-02T16:30:00",
+    "duration": "8h45m",
+    "seatsAvailable": 190,
+    "aircraft": {
+      "capacity": {
+        "Economy": 160,
+        "PremiumEconomy": 25,
+        "Business": 30,
+        "FirstClass": 15
+      },
+      "manufacturer": "Boeing",
+      "model": "777",
+      "type": "B777"
+    },
+    "layovers": [
+      {
+        "airport": "JFK",
+        "city": "New York",
+        "arrivalDateTime": "2024-07-02T15:00:00",
+        "departureDateTime": "2024-07-02T16:30:00",
+        "willChangeAircraft": true,
+        "nextAirline": {
+          "iataCode": "AF",
+          "logoUrl": "https://images.kiwi.com/airlines/64/AF.png",
+          "name": "Air France"
+        },
+        "nextFlightNumber": "AF456",
+        "nextAircraft": {
+          "capacity": {
+            "Economy": 180,
+            "Business": 30,
+            "FirstClass": 10
+          },
+          "manufacturer": "Airbus",
+          "model": "A380",
+          "type": "A380"
+        }
+      }
+    ],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions",
+          "PowerOutlets"
+        ],
+        "baggageAllowance": {
+          "carryOn": "8kg",
+          "checked": "25kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "32 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 550
+        }
+      },
+      {
+        "amenities": [
+          "PremiumEconomyAmenities",
+          "SeatComfort",
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "10kg",
+          "checked": "32kg"
+        },
+        "cabinClass": "PremiumEconomy",
+        "legroom": "38 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 950
+        }
+      },
+      {
+        "amenities": [
+          "BusinessClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions",
+          "WiFiAvailability"
+        ],
+        "baggageAllowance": {
+          "carryOn": "12kg",
+          "checked": "40kg"
+        },
+        "cabinClass": "Business",
+        "legroom": "45 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1300
+        }
+      },
+      {
+        "amenities": [
+          "FirstClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions",
+          "WiFiAvailability"
+        ],
+        "baggageAllowance": {
+          "carryOn": "14kg",
+          "checked": "50kg"
+        },
+        "cabinClass": "FirstClass",
+        "legroom": "60 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 2000
+        }
+      }
+    ]
+  },
+  "MU654": {
+    "airline": {
+      "iataCode": "MU",
+      "logoUrl": "https://images.kiwi.com/airlines/64/MU.png",
+      "name": "China Eastern Airlines"
+    },
+    "departureAirport": "CAN",
+    "departureCity": "Guangzhou",
+    "departureDateTime": "2024-09-01T10:30:00",
+    "arrivalAirport": "SYD",
+    "arrivalCity": "Sydney",
+    "arrivalDateTime": "2024-09-01T21:15:00",
+    "duration": "9h45m",
+    "seatsAvailable": 180,
+    "aircraft": {
+      "capacity": {
+        "Economy": 160,
+        "Business": 20,
+        "FirstClass": 10
+      },
+      "manufacturer": "Airbus",
+      "model": "A350",
+      "type": "A350"
+    },
+    "layovers": [],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions",
+          "PowerOutlets"
+        ],
+        "baggageAllowance": {
+          "carryOn": "7kg",
+          "checked": "23kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "31 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 490
+        }
+      },
+      {
+        "amenities": [
+          "BusinessClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "10kg",
+          "checked": "32kg"
+        },
+        "cabinClass": "Business",
+        "legroom": "45 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1050
+        }
+      },
+      {
+        "amenities": [
+          "FirstClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions",
+          "WiFiAvailability"
+        ],
+        "baggageAllowance": {
+          "carryOn": "12kg",
+          "checked": "40kg"
+        },
+        "cabinClass": "FirstClass",
+        "legroom": "60 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1750
+        }
+      }
+    ]
+  },
+  "EK345": {
+    "airline": {
+      "iataCode": "EK",
+      "logoUrl": "https://images.kiwi.com/airlines/64/EK.png",
+      "name": "Emirates"
+    },
+    "departureAirport": "DXB",
+    "departureCity": "Dubai",
+    "departureDateTime": "2024-10-12T15:00:00",
+    "arrivalAirport": "BOS",
+    "arrivalCity": "Boston",
+    "arrivalDateTime": "2024-10-12T20:30:00",
+    "duration": "13h30m",
+    "seatsAvailable": 220,
+    "aircraft": {
+      "capacity": {
+        "Economy": 190,
+        "Business": 25,
+        "FirstClass": 10
+      },
+      "manufacturer": "Boeing",
+      "model": "777",
+      "type": "B777"
+    },
+    "layovers": [
+      {
+        "airport": "ATH",
+        "city": "Athens",
+        "arrivalDateTime": "2024-10-12T18:00:00",
+        "departureDateTime": "2024-10-12T19:30:00",
+        "willChangeAircraft": true,
+        "nextAirline": {
+          "iataCode": "OA",
+          "logoUrl": "https://images.kiwi.com/airlines/64/OA.png",
+          "name": "Olympic Air"
+        },
+        "nextFlightNumber": "OA123",
+        "nextAircraft": {
+          "capacity": {
+            "Economy": 150,
+            "Business": 25,
+            "FirstClass": 10
+          },
+          "manufacturer": "Airbus",
+          "model": "A320",
+          "type": "A320"
+        }
+      }
+    ],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions",
+          "PowerOutlets"
+        ],
+        "baggageAllowance": {
+          "carryOn": "7kg",
+          "checked": "23kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "31 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 580
+        }
+      },
+      {
+        "amenities": [
+          "BusinessClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "10kg",
+          "checked": "32kg"
+        },
+        "cabinClass": "Business",
+        "legroom": "45 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1300
+        }
+      },
+      {
+        "amenities": [
+          "FirstClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions",
+          "WiFiAvailability"
+        ],
+        "baggageAllowance": {
+          "carryOn": "12kg",
+          "checked": "40kg"
+        },
+        "cabinClass": "FirstClass",
+        "legroom": "60 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 2100
+        }
+      }
+    ]
+  },
+  "OA123": {
+    "airline": {
+      "iataCode": "OA",
+      "logoUrl": "https://images.kiwi.com/airlines/64/OA.png",
+      "name": "Olympic Air"
+    },
+    "departureAirport": "ATH",
+    "departureCity": "Athens",
+    "departureDateTime": "2024-11-25T14:45:00",
+    "arrivalAirport": "PRG",
+    "arrivalCity": "Prague",
+    "arrivalDateTime": "2024-11-25T17:30:00",
+    "duration": "2h45m",
+    "seatsAvailable": 120,
+    "aircraft": {
+      "capacity": {
+        "Economy": 100,
+        "Business": 15,
+        "FirstClass": 5
+      },
+      "manufacturer": "Airbus",
+      "model": "A320",
+      "type": "A320"
+    },
+    "layovers": [],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions",
+          "PowerOutlets"
+        ],
+        "baggageAllowance": {
+          "carryOn": "6kg",
+          "checked": "20kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "30 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 220
+        }
+      },
+      {
+        "amenities": [
+          "BusinessClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "9kg",
+          "checked": "25kg"
+        },
+        "cabinClass": "Business",
+        "legroom": "42 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 500
+        }
+      },
+      {
+        "amenities": [
+          "FirstClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions",
+          "WiFiAvailability"
+        ],
+        "baggageAllowance": {
+          "carryOn": "12kg",
+          "checked": "30kg"
+        },
+        "cabinClass": "FirstClass",
+        "legroom": "55 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 800
+        }
+      }
+    ]
+  },
+  "CX789": {
+    "airline": {
+      "iataCode": "CX",
+      "logoUrl": "https://images.kiwi.com/airlines/64/CX.png",
+      "name": "Cathay Pacific"
+    },
+    "departureAirport": "HKG",
+    "departureCity": "Hong Kong",
+    "departureDateTime": "2024-12-10T08:30:00",
+    "arrivalAirport": "LAX",
+    "arrivalCity": "Los Angeles",
+    "arrivalDateTime": "2024-12-10T11:30:00",
+    "duration": "12h",
+    "seatsAvailable": 210,
+    "aircraft": {
+      "capacity": {
+        "Economy": 180,
+        "Business": 25,
+        "FirstClass": 15
+      },
+      "manufacturer": "Boeing",
+      "model": "777",
+      "type": "B777"
+    },
+    "layovers": [
+      {
+        "airport": "NRT",
+        "city": "Tokyo",
+        "arrivalDateTime": "2024-12-10T12:45:00",
+        "departureDateTime": "2024-12-10T14:15:00",
+        "willChangeAircraft": true,
+        "nextAirline": {
+          "iataCode": "UA",
+          "logoUrl": "https://images.kiwi.com/airlines/64/UA.png",
+          "name": "United Airlines"
+        },
+        "nextFlightNumber": "UA789",
+        "nextAircraft": {
+          "capacity": {
+            "Economy": 160,
+            "Business": 30,
+            "FirstClass": 10
+          },
+          "manufacturer": "Airbus",
+          "model": "A380",
+          "type": "A380"
+        }
+      }
+    ],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions",
+          "PowerOutlets"
+        ],
+        "baggageAllowance": {
+          "carryOn": "7kg",
+          "checked": "23kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "32 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 550
+        }
+      },
+      {
+        "amenities": [
+          "BusinessClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "10kg",
+          "checked": "32kg"
+        },
+        "cabinClass": "Business",
+        "legroom": "45 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1200
+        }
+      },
+      {
+        "amenities": [
+          "FirstClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions",
+          "WiFiAvailability"
+        ],
+        "baggageAllowance": {
+          "carryOn": "12kg",
+          "checked": "40kg"
+        },
+        "cabinClass": "FirstClass",
+        "legroom": "60 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1900
+        }
+      }
+    ]
+  },
+  "UA789": {
+    "airline": {
+      "iataCode": "UA",
+      "logoUrl": "https://images.kiwi.com/airlines/64/UA.png",
+      "name": "United Airlines"
+    },
+    "departureAirport": "LAX",
+    "departureCity": "Los Angeles",
+    "departureDateTime": "2025-01-20T13:15:00",
+    "arrivalAirport": "JFK",
+    "arrivalCity": "New York",
+    "arrivalDateTime": "2025-01-20T21:00:00",
+    "duration": "5h45m",
+    "seatsAvailable": 180,
+    "aircraft": {
+      "capacity": {
+        "Economy": 160,
+        "Business": 20,
+        "FirstClass": 10
+      },
+      "manufacturer": "Airbus",
+      "model": "A380",
+      "type": "A380"
+    },
+    "layovers": [],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions",
+          "PowerOutlets"
+        ],
+        "baggageAllowance": {
+          "carryOn": "7kg",
+          "checked": "23kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "31 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 500
+        }
+      },
+      {
+        "amenities": [
+          "BusinessClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "10kg",
+          "checked": "32kg"
+        },
+        "cabinClass": "Business",
+        "legroom": "45 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1100
+        }
+      },
+      {
+        "amenities": [
+          "FirstClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions",
+          "WiFiAvailability"
+        ],
+        "baggageAllowance": {
+          "carryOn": "12kg",
+          "checked": "40kg"
+        },
+        "cabinClass": "FirstClass",
+        "legroom": "60 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1800
+        }
+      }
+    ]
+  },
+  "FR567": {
+    "airline": {
+      "iataCode": "FR",
+      "logoUrl": "https://images.kiwi.com/airlines/64/FR.png",
+      "name": "Ryanair"
+    },
+    "departureAirport": "STN",
+    "departureCity": "London",
+    "departureDateTime": "2025-02-10T09:30:00",
+    "arrivalAirport": "BCN",
+    "arrivalCity": "Barcelona",
+    "arrivalDateTime": "2025-02-10T12:00:00",
+    "duration": "2h30m",
+    "seatsAvailable": 200,
+    "aircraft": {
+      "capacity": {
+        "Economy": 200
+      },
+      "manufacturer": "Boeing",
+      "model": "737",
+      "type": "B737"
+    },
+    "layovers": [],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "5kg",
+          "checked": "20kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "29 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 80
+        }
+      }
+    ]
+  },
+  "KL876": {
+    "airline": {
+      "iataCode": "KL",
+      "logoUrl": "https://images.kiwi.com/airlines/64/KL.png",
+      "name": "KLM"
+    },
+    "departureAirport": "AMS",
+    "departureCity": "Amsterdam",
+    "departureDateTime": "2025-03-25T16:45:00",
+    "arrivalAirport": "JNB",
+    "arrivalCity": "Johannesburg",
+    "arrivalDateTime": "2025-03-26T05:30:00",
+    "duration": "11h45m",
+    "seatsAvailable": 220,
+    "aircraft": {
+      "capacity": {
+        "Economy": 180,
+        "Business": 30,
+        "FirstClass": 10
+      },
+      "manufacturer": "Boeing",
+      "model": "787",
+      "type": "B787"
+    },
+    "layovers": [
+      {
+        "airport": "CDG",
+        "city": "Paris",
+        "arrivalDateTime": "2025-03-25T19:30:00",
+        "departureDateTime": "2025-03-25T21:00:00",
+        "willChangeAircraft": true,
+        "nextAirline": {
+          "iataCode": "SA",
+          "logoUrl": "https://images.kiwi.com/airlines/64/SA.png",
+          "name": "South African Airways"
+        },
+        "nextFlightNumber": "SA789",
+        "nextAircraft": {
+          "capacity": {
+            "Economy": 180,
+            "Business": 35,
+            "FirstClass": 15
+          },
+          "manufacturer": "Airbus",
+          "model": "A340",
+          "type": "A340"
+        }
+      }
+    ],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions",
+          "PowerOutlets"
+        ],
+        "baggageAllowance": {
+          "carryOn": "8kg",
+          "checked": "25kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "32 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 600
+        }
+      },
+      {
+        "amenities": [
+          "BusinessClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "10kg",
+          "checked": "32kg"
+        },
+        "cabinClass": "Business",
+        "legroom": "45 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1300
+        }
+      },
+      {
+        "amenities": [
+          "FirstClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions",
+          "WiFiAvailability"
+        ],
+        "baggageAllowance": {
+          "carryOn": "12kg",
+          "checked": "40kg"
+        },
+        "cabinClass": "FirstClass",
+        "legroom": "60 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 2000
+        }
+      }
+    ]
+  },
+  "SA789": {
+    "airline": {
+      "iataCode": "SA",
+      "logoUrl": "https://images.kiwi.com/airlines/64/SA.png",
+      "name": "South African Airways"
+    },
+    "departureAirport": "JNB",
+    "departureCity": "Johannesburg",
+    "departureDateTime": "2025-05-10T18:15:00",
+    "arrivalAirport": "SYD",
+    "arrivalCity": "Sydney",
+    "arrivalDateTime": "2025-05-11T07:00:00",
+    "duration": "14h45m",
+    "seatsAvailable": 200,
+    "aircraft": {
+      "capacity": {
+        "Economy": 170,
+        "Business": 25,
+        "FirstClass": 5
+      },
+      "manufacturer": "Airbus",
+      "model": "A340",
+      "type": "A340"
+    },
+    "layovers": [
+      {
+        "airport": "PER",
+        "city": "Perth",
+        "arrivalDateTime": "2025-05-10T22:30:00",
+        "departureDateTime": "2025-05-11T00:00:00",
+        "willChangeAircraft": true,
+        "nextAirline": {
+          "iataCode": "QF",
+          "logoUrl": "https://images.kiwi.com/airlines/64/QF.png",
+          "name": "Qantas Airways"
+        },
+        "nextFlightNumber": "QF789",
+        "nextAircraft": {
+          "capacity": {
+            "Economy": 200,
+            "Business": 30,
+            "FirstClass": 10
+          },
+          "manufacturer": "Boeing",
+          "model": "787",
+          "type": "B787"
+        }
+      }
+    ],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions",
+          "PowerOutlets"
+        ],
+        "baggageAllowance": {
+          "carryOn": "8kg",
+          "checked": "25kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "32 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 700
+        }
+      },
+      {
+        "amenities": [
+          "BusinessClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "10kg",
+          "checked": "32kg"
+        },
+        "cabinClass": "Business",
+        "legroom": "45 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1400
+        }
+      },
+      {
+        "amenities": [
+          "FirstClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions",
+          "WiFiAvailability"
+        ],
+        "baggageAllowance": {
+          "carryOn": "12kg",
+          "checked": "40kg"
+        },
+        "cabinClass": "FirstClass",
+        "legroom": "60 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 2100
+        }
+      }
+    ]
+  },
+  "QF789": {
+    "airline": {
+      "iataCode": "QF",
+      "logoUrl": "https://images.kiwi.com/airlines/64/QF.png",
+      "name": "Qantas Airways"
+    },
+    "departureAirport": "SYD",
+    "departureCity": "Sydney",
+    "departureDateTime": "2025-06-22T11:45:00",
+    "arrivalAirport": "LHR",
+    "arrivalCity": "London",
+    "arrivalDateTime": "2025-06-22T20:30:00",
+    "duration": "22h45m",
+    "seatsAvailable": 250,
+    "aircraft": {
+      "capacity": {
+        "Economy": 200,
+        "Business": 35,
+        "FirstClass": 15
+      },
+      "manufacturer": "Boeing",
+      "model": "787",
+      "type": "B787"
+    },
+    "layovers": [
+      {
+        "airport": "DXB",
+        "city": "Dubai",
+        "arrivalDateTime": "2025-06-22T15:30:00",
+        "departureDateTime": "2025-06-22T17:00:00",
+        "willChangeAircraft": true,
+        "nextAirline": {
+          "iataCode": "EK",
+          "logoUrl": "https://images.kiwi.com/airlines/64/EK.png",
+          "name": "Emirates"
+        },
+        "nextFlightNumber": "EK789",
+        "nextAircraft": {
+          "capacity": {
+            "Economy": 180,
+            "Business": 25,
+            "FirstClass": 10
+          },
+          "manufacturer": "Boeing",
+          "model": "777",
+          "type": "B777"
+        }
+      }
+    ],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions",
+          "PowerOutlets"
+        ],
+        "baggageAllowance": {
+          "carryOn": "7kg",
+          "checked": "23kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "32 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 850
+        }
+      },
+      {
+        "amenities": [
+          "BusinessClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "10kg",
+          "checked": "32kg"
+        },
+        "cabinClass": "Business",
+        "legroom": "45 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1500
+        }
+      },
+      {
+        "amenities": [
+          "FirstClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions",
+          "WiFiAvailability"
+        ],
+        "baggageAllowance": {
+          "carryOn": "12kg",
+          "checked": "40kg"
+        },
+        "cabinClass": "FirstClass",
+        "legroom": "60 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 2200
+        }
+      }
+    ]
+  },
+  "TK876": {
+    "airline": {
+      "iataCode": "TK",
+      "logoUrl": "https://images.kiwi.com/airlines/64/TK.png",
+      "name": "Turkish Airlines"
+    },
+    "departureAirport": "IST",
+    "departureCity": "Istanbul",
+    "departureDateTime": "2025-12-12T08:45:00",
+    "arrivalAirport": "HKG",
+    "arrivalCity": "Hong Kong",
+    "arrivalDateTime": "2025-12-12T22:15:00",
+    "duration": "9h30m",
+    "seatsAvailable": 220,
+    "aircraft": {
+      "capacity": {
+        "Economy": 190,
+        "Business": 25,
+        "FirstClass": 5
+      },
+      "manufacturer": "Airbus",
+      "model": "A350",
+      "type": "A350"
+    },
+    "layovers": [
+      {
+        "airport": "IST",
+        "city": "Istanbul",
+        "arrivalDateTime": "2025-12-12T11:30:00",
+        "departureDateTime": "2025-12-12T13:00:00",
+        "willChangeAircraft": true,
+        "nextAirline": {
+          "iataCode": "CX",
+          "logoUrl": "https://images.kiwi.com/airlines/64/CX.png",
+          "name": "Cathay Pacific"
+        },
+        "nextFlightNumber": "CX876",
+        "nextAircraft": {
+          "capacity": {
+            "Economy": 200,
+            "Business": 30,
+            "FirstClass": 10
+          },
+          "manufacturer": "Boeing",
+          "model": "777",
+          "type": "B777"
+        }
+      }
+    ],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions",
+          "PowerOutlets"
+        ],
+        "baggageAllowance": {
+          "carryOn": "8kg",
+          "checked": "25kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "32 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 650
+        }
+      },
+      {
+        "amenities": [
+          "BusinessClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "10kg",
+          "checked": "32kg"
+        },
+        "cabinClass": "Business",
+        "legroom": "45 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1400
+        }
+      },
+      {
+        "amenities": [
+          "FirstClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions",
+          "WiFiAvailability"
+        ],
+        "baggageAllowance": {
+          "carryOn": "12kg",
+          "checked": "40kg"
+        },
+        "cabinClass": "FirstClass",
+        "legroom": "60 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 2100
+        }
+      }
+    ]
+  },
+  "UA234": {
+    "airline": {
+      "iataCode": "UA",
+      "logoUrl": "https://images.kiwi.com/airlines/64/UA.png",
+      "name": "United Airlines"
+    },
+    "departureAirport": "ORD",
+    "departureCity": "Chicago",
+    "departureDateTime": "2026-02-20T13:30:00",
+    "arrivalAirport": "HNL",
+    "arrivalCity": "Honolulu",
+    "arrivalDateTime": "2026-02-20T19:15:00",
+    "duration": "8h45m",
+    "seatsAvailable": 180,
+    "aircraft": {
+      "capacity": {
+        "Economy": 150,
+        "Business": 20,
+        "FirstClass": 10
+      },
+      "manufacturer": "Boeing",
+      "model": "777",
+      "type": "B777"
+    },
+    "layovers": [],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions",
+          "PowerOutlets"
+        ],
+        "baggageAllowance": {
+          "carryOn": "7kg",
+          "checked": "23kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "31 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 700
+        }
+      },
+      {
+        "amenities": [
+          "BusinessClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "10kg",
+          "checked": "32kg"
+        },
+        "cabinClass": "Business",
+        "legroom": "45 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1400
+        }
+      },
+      {
+        "amenities": [
+          "FirstClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions",
+          "WiFiAvailability"
+        ],
+        "baggageAllowance": {
+          "carryOn": "12kg",
+          "checked": "40kg"
+        },
+        "cabinClass": "FirstClass",
+        "legroom": "60 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 2200
+        }
+      }
+    ]
+  },
+  "CA789": {
+    "airline": {
+      "iataCode": "CA",
+      "logoUrl": "https://images.kiwi.com/airlines/64/CA.png",
+      "name": "Air China"
+    },
+    "departureAirport": "PEK",
+    "departureCity": "Beijing",
+    "departureDateTime": "2026-04-10T16:00:00",
+    "arrivalAirport": "SFO",
+    "arrivalCity": "San Francisco",
+    "arrivalDateTime": "2026-04-10T18:45:00",
+    "duration": "11h45m",
+    "seatsAvailable": 200,
+    "aircraft": {
+      "capacity": {
+        "Economy": 180,
+        "Business": 20,
+        "FirstClass": 10
+      },
+      "manufacturer": "Boeing",
+      "model": "777",
+      "type": "B777"
+    },
+    "layovers": [
+      {
+        "airport": "PVG",
+        "city": "Shanghai",
+        "arrivalDateTime": "2026-04-10T19:45:00",
+        "departureDateTime": "2026-04-10T21:15:00",
+        "willChangeAircraft": true,
+        "nextAirline": {
+          "iataCode": "DL",
+          "logoUrl": "https://images.kiwi.com/airlines/64/DL.png",
+          "name": "Delta Air Lines"
+        },
+        "nextFlightNumber": "DL876",
+        "nextAircraft": {
+          "capacity": {
+            "Economy": 150,
+            "Business": 25,
+            "FirstClass": 5
+          },
+          "manufacturer": "Airbus",
+          "model": "A350",
+          "type": "A350"
+        }
+      }
+    ],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions",
+          "PowerOutlets"
+        ],
+        "baggageAllowance": {
+          "carryOn": "8kg",
+          "checked": "25kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "32 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 750
+        }
+      },
+      {
+        "amenities": [
+          "BusinessClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "10kg",
+          "checked": "32kg"
+        },
+        "cabinClass": "Business",
+        "legroom": "45 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1600
+        }
+      },
+      {
+        "amenities": [
+          "FirstClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions",
+          "WiFiAvailability"
+        ],
+        "baggageAllowance": {
+          "carryOn": "12kg",
+          "checked": "40kg"
+        },
+        "cabinClass": "FirstClass",
+        "legroom": "60 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 2400
+        }
+      }
+    ]
+  },
+  "FR123": {
+    "airline": {
+      "iataCode": "FR",
+      "logoUrl": "https://images.kiwi.com/airlines/64/FR.png",
+      "name": "Ryanair"
+    },
+    "departureAirport": "DUB",
+    "departureCity": "Dublin",
+    "departureDateTime": "2026-06-08T09:30:00",
+    "arrivalAirport": "BCN",
+    "arrivalCity": "Barcelona",
+    "arrivalDateTime": "2026-06-08T12:15:00",
+    "duration": "2h45m",
+    "seatsAvailable": 180,
+    "aircraft": {
+      "capacity": {
+        "Economy": 180
+      },
+      "manufacturer": "Boeing",
+      "model": "737",
+      "type": "B737"
+    },
+    "layovers": [],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "5kg",
+          "checked": "20kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "30 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 120
+        }
+      }
+    ]
+  },
+  "MU567": {
+    "airline": {
+      "iataCode": "MU",
+      "logoUrl": "https://images.kiwi.com/airlines/64/MU.png",
+      "name": "China Eastern Airlines"
+    },
+    "departureAirport": "PVG",
+    "departureCity": "Shanghai",
+    "departureDateTime": "2026-09-15T16:45:00",
+    "arrivalAirport": "LAX",
+    "arrivalCity": "Los Angeles",
+    "arrivalDateTime": "2026-09-15T18:45:00",
+    "duration": "12h",
+    "seatsAvailable": 200,
+    "aircraft": {
+      "capacity": {
+        "Economy": 170,
+        "Business": 25,
+        "FirstClass": 5
+      },
+      "manufacturer": "Airbus",
+      "model": "A380",
+      "type": "A380"
+    },
+    "layovers": [
+      {
+        "airport": "HKG",
+        "city": "Hong Kong",
+        "arrivalDateTime": "2026-09-15T21:30:00",
+        "departureDateTime": "2026-09-15T23:00:00",
+        "willChangeAircraft": true,
+        "nextAirline": {
+          "iataCode": "CX",
+          "logoUrl": "https://images.kiwi.com/airlines/64/CX.png",
+          "name": "Cathay Pacific"
+        },
+        "nextFlightNumber": "CX567",
+        "nextAircraft": {
+          "capacity": {
+            "Economy": 160,
+            "Business": 30,
+            "FirstClass": 10
+          },
+          "manufacturer": "Boeing",
+          "model": "777",
+          "type": "B777"
+        }
+      }
+    ],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions",
+          "PowerOutlets"
+        ],
+        "baggageAllowance": {
+          "carryOn": "8kg",
+          "checked": "25kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "31 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 800
+        }
+      },
+      {
+        "amenities": [
+          "BusinessClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "10kg",
+          "checked": "32kg"
+        },
+        "cabinClass": "Business",
+        "legroom": "46 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1600
+        }
+      },
+      {
+        "amenities": [
+          "FirstClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions",
+          "WiFiAvailability"
+        ],
+        "baggageAllowance": {
+          "carryOn": "12kg",
+          "checked": "40kg"
+        },
+        "cabinClass": "FirstClass",
+        "legroom": "60 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 2400
+        }
+      }
+    ]
+  },
+  "AF345": {
+    "airline": {
+      "iataCode": "AF",
+      "logoUrl": "https://images.kiwi.com/airlines/64/AF.png",
+      "name": "Air France"
+    },
+    "departureAirport": "CDG",
+    "departureCity": "Paris",
+    "departureDateTime": "2026-12-20T10:00:00",
+    "arrivalAirport": "NRT",
+    "arrivalCity": "Tokyo",
+    "arrivalDateTime": "2026-12-20T05:30:00",
+    "duration": "11h30m",
+    "seatsAvailable": 190,
+    "aircraft": {
+      "capacity": {
+        "Economy": 160,
+        "Business": 25,
+        "FirstClass": 5
+      },
+      "manufacturer": "Airbus",
+      "model": "A350",
+      "type": "A350"
+    },
+    "layovers": [
+      {
+        "airport": "AMS",
+        "city": "Amsterdam",
+        "arrivalDateTime": "2026-12-20T11:30:00",
+        "departureDateTime": "2026-12-20T13:00:00",
+        "willChangeAircraft": true,
+        "nextAirline": {
+          "iataCode": "NH",
+          "logoUrl": "https://images.kiwi.com/airlines/64/NH.png",
+          "name": "All Nippon Airways"
+        },
+        "nextFlightNumber": "NH345",
+        "nextAircraft": {
+          "capacity": {
+            "Economy": 150,
+            "Business": 30,
+            "FirstClass": 10
+          },
+          "manufacturer": "Boeing",
+          "model": "787",
+          "type": "B787"
+        }
+      }
+    ],
+    "cabins": [
+      {
+        "amenities": [
+          "EntertainmentOptions",
+          "PowerOutlets"
+        ],
+        "baggageAllowance": {
+          "carryOn": "8kg",
+          "checked": "25kg"
+        },
+        "cabinClass": "Economy",
+        "legroom": "32 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 850
+        }
+      },
+      {
+        "amenities": [
+          "BusinessClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions"
+        ],
+        "baggageAllowance": {
+          "carryOn": "10kg",
+          "checked": "32kg"
+        },
+        "cabinClass": "Business",
+        "legroom": "45 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 1700
+        }
+      },
+      {
+        "amenities": [
+          "FirstClassLounge",
+          "SeatComfort",
+          "EntertainmentOptions",
+          "WiFiAvailability"
+        ],
+        "baggageAllowance": {
+          "carryOn": "12kg",
+          "checked": "40kg"
+        },
+        "cabinClass": "FirstClass",
+        "legroom": "60 inches",
+        "price": {
+          "currency": "USD",
+          "amount": 2500
+        }
+      }
+    ]
+  }
+}
