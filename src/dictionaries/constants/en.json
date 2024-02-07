@@ -1,0 +1,28 @@
+{
+  "amenity": {
+    "advancedTechnologies": "Advanced Technologies",
+    "amenityKits": "Amenity Kits",
+    "businessClassLounge": "Business Class Lounge",
+    "cabinAmbiance": "Cabin Ambiance",
+    "diningServices": "Dining Services",
+    "entertainmentOptions": "Entertainment Options",
+    "loungeAccess": "Lounge Access",
+    "powerOutlets": "Power Outlets",
+    "premiumEconomyAmenities": "Premium Economy Amenities",
+    "priorityBoarding": "Priority Boarding",
+    "quietZone": "Quiet Zone",
+    "seatComfort": "Seat Comfort",
+    "wifiAvailability": "Wi-Fi Availability"
+  },
+  "cabinClass": {
+    "economy": "Economy",
+    "premiumEconomy": "Premium Economy",
+    "business": "Business",
+    "firstClass": "First Class"
+  },
+  "seatStatus": {
+    "available": "Available",
+    "booked": "Booked",
+    "reserved": "Reserved"
+  }
+}

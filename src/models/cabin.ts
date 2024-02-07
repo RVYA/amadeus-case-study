@@ -1,17 +1,17 @@
 enum Amenity {
-  AdvancedTechnologies = "advanced-technologies",
-  AmenityKits = "amenity-kits",
-  BusinessClassLounge = "business-class-lounge",
-  CabinAmbiance = "cabin-ambiance",
-  DiningServices = "dining-services",
-  EntertainmentOptions = "entertainment-options",
-  LoungeAccess = "lounge-access",
-  PowerOutlets = "power-outlets",
-  PremiumEconomyAmenities = "premium-economy-amenities",
-  PriorityBoarding = "priority-boarding",
-  QuietZone = "quiet-zone",
-  SeatComfort = "seat-comfort",
-  WiFiAvailability = "wifi-availability",
+  AdvancedTechnologies = "advancedTechnologies",
+  AmenityKits = "amenityKits",
+  BusinessClassLounge = "businessClassLounge",
+  CabinAmbiance = "cabinAmbiance",
+  DiningServices = "diningServices",
+  EntertainmentOptions = "entertainmentOptions",
+  LoungeAccess = "loungeAccess",
+  PowerOutlets = "powerOutlets",
+  PremiumEconomyAmenities = "premiumEconomyAmenities",
+  PriorityBoarding = "priorityBoarding",
+  QuietZone = "quietZone",
+  SeatComfort = "seatComfort",
+  WiFiAvailability = "wifiAvailability",
 }
 
 interface Price {
@@ -21,9 +21,9 @@ interface Price {
 
 export enum CabinClass {
   Economy = "economy",
-  PremiumEconomy = "premium-economy",
+  PremiumEconomy = "premiumEconomy",
   Business = "business",
-  FirstClass = "first-class",
+  FirstClass = "firstClass",
 }
 
 interface BaggageAllowance {

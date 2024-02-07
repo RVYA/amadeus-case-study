@@ -1,0 +1,28 @@
+{
+  "amenity": {
+    "advancedTechnologies": "Gelişmiş Teknolojiler",
+    "amenityKits": "Hediyelik Ürünler",
+    "businessClassLounge": "İş Sınıfı Salonu",
+    "cabinAmbiance": "Kabin Atmosferi",
+    "diningServices": "Yemek Hizmetleri",
+    "entertainmentOptions": "Eğlence Seçenekleri",
+    "loungeAccess": "Salon Erişimi",
+    "powerOutlets": "Elektrik Prizleri",
+    "premiumEconomyAmenities": "Premium Ekonomi Hediyelikleri",
+    "priorityBoarding": "Öncelikli Biniş",
+    "quietZone": "Sessiz Bölge",
+    "seatComfort": "Koltuk Konforu",
+    "wifiAvailability": "Wi-Fi Uyumluluğu"
+  },
+  "cabinClass": {
+    "economy": "Ekonomi",
+    "premiumEconomy": "Premium Ekonomi",
+    "business": "Business",
+    "firstClass": "First Class"
+  },
+  "seatStatus": {
+    "available": "Boş",
+    "booked": "Satın Alındı",
+    "reserved": "Rezerve Edildi"
+  }
+}

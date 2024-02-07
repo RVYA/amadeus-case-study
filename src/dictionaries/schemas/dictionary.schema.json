@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "amadeus-case-study-dictionary-schema",
+  "title": "i18n Dictionary",
+  "description": "Dictionary for UI text and constant strings",
+  "type": "object",
+  "properties": {
+    "component-name": {
+      "type": "string"
+    },
+    "aria-label": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    }
+  }
+}
